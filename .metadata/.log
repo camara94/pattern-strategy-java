@@ -38,3 +38,62 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 0 2020-06-03 21:05:31.017
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-06-03 21:05:31.017
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.ui 2 2 2020-06-03 21:05:55.207
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-03 21:06:53.548
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-03 21:06:53.558
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@785b187e[org.springframework.tooling.boot.ls:1.17.0.202004200519(id=1013)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-03 21:06:53.585
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-03 21:06:54.625
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-03 21:07:04.081
+!MESSAGE Boot LS startup time from start to initialized: 10462ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-03 21:07:04.197
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.NjBlirlPisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-03 21:07:04.298
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-03 21:07:04.382
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-03 21:07:04.399
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-03 21:07:04.413
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-03 21:07:04.428
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-03 21:07:04.440
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-03 21:07:04.450
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.NjBlirlP => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-03 21:07:04.464
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-03 21:07:04.497
+!MESSAGE buffering callback sts4.classpath.NjBlirlP pattern_strategy false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-03 21:07:04.512
+!MESSAGE executing callback sts4.classpath.NjBlirlP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-03 21:07:04.546
+!MESSAGE executing callback sts4.classpath.NjBlirlP SUCCESS [done]
